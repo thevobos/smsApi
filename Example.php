@@ -16,7 +16,7 @@
         $Iletimerkezi = new Iletimerkezi();
 
 		/*
-			-addnumber(" NUMARA ");
+			->addnumber(" NUMARA ");
 			
 			Bu parametre çogaltılarak toplu sms atılabilir.
 			
