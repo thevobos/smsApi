@@ -1,6 +1,6 @@
 # Ileti-Merkezi-Api-Class
 
-/*
+
 *
 *	AUTHOR   : Cengiz Akcan
 *	Mail     : cengiz@polotasarim.com
@@ -9,7 +9,7 @@
 *	Facebook : fb.com/cengizakcan1996
 *   Gsm      : 05413509697
 *
-**/
+
 
 
         include("Iletimerkezi.php");
