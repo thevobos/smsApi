@@ -10,7 +10,7 @@ class Iletimerkezi
     public $username        = "";
     public $password        = "";
     public $title           = "";
-    public $text           = "";
+    public $text            = "";
     public $numbers         = array();
     public $numbersexp      = array();
     public $date            = "";
@@ -99,9 +99,9 @@ class Iletimerkezi
      * @ Mixed
      * Bu alan çoklu numara girişi yapabilirsiniz. bu alanı sadece sms gönderirken kullanabilirsiniz.
      * */
-    public function addnumber($number = null){
+    public function addnumber(array $array = []){
 
-        $this->numbers[] = [$number];
+        $this->numbers[] = $array;
         return $this;
 
     }
@@ -109,14 +109,7 @@ class Iletimerkezi
     /* Sistem Numara Listesi */
     public function numberlist(){
 
-        $List = "";
-        foreach($this->numbers as $number){
-
-            $List .= "<number>{$number[0]}</number>";
-
-        }
-
-        return $List;
+        return implode(",",$this->numbers[0]);
 
     }
 
@@ -161,7 +154,7 @@ EOS;
 
     }
 
-    /* Post Fonksiyonu */
+
     public function send(){
 
         $ch = curl_init();
