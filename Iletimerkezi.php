@@ -10,7 +10,7 @@ class Iletimerkezi
     public $username        = "";
     public $password        = "";
     public $title           = "";
-    public $text            = "";
+    public $text           = "";
     public $numbers         = array();
     public $numbersexp      = array();
     public $date            = "";
@@ -109,7 +109,14 @@ class Iletimerkezi
     /* Sistem Numara Listesi */
     public function numberlist(){
 
-        return implode(",",$this->numbers[0]);
+        $List = "";
+        foreach($this->numbers[0] as $number){
+
+            $List .= "<number>{$number}</number>";
+
+        }
+
+        return $List;
 
     }
 
@@ -155,6 +162,7 @@ EOS;
     }
 
 
+    /* Post Fonksiyonu */
     public function send(){
 
         $ch = curl_init();
