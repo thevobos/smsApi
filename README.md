@@ -30,7 +30,7 @@
 				->username(" KULLANICI ADI ")
 				->password(" ŞİFRE ")
 				->title(" SMS BAŞLIGI ")
-				->addnumber(" NUMARA EKLE ")
+				->addnumber([" Numara "," Numara ",....." Numara "])
 				->text(" GÖNDERİLECEK MESAJ ")
 				->sms()
 				->send();
