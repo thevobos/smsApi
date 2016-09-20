@@ -24,7 +24,7 @@
 			
 		*/
 		
-        #Klasik Normal & Toplu Sms Yollama
+        # Klasik Normal & Toplu Sms Yollama
         $Sms = $Iletimerkezi
 			->url("send")
 			->username(" KULLANICI ADI ")
@@ -43,7 +43,7 @@
                  $Sms->status->message;	
                  $Sms->order->id;
 
-        #Bakiye Sorgulama
+        # Bakiye Sorgulama
         $Status = $Iletimerkezi
 			->url("status")
 			->username(" KULLANICI ADI ")
