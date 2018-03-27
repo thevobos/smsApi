@@ -3,7 +3,7 @@
 
 *
 *	AUTHOR   : Cengiz Akcan
-*	Mail     : cengiz@polotasarim.com
+*	Mail     : cengiz@zekicetasarim.com
 *   	Project  : Ileti merkezi basic api class 
 *	Github	 : github.com/cengizakcan1996
 *	Facebook : fb.com/cengizakcan1996
