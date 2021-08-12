@@ -3,10 +3,10 @@
 
 *
 *	AUTHOR   : Cengiz Akcan
-*	Mail     : cengiz@zekicetasarim.com
+*	Mail     : cengiz@vobo.company
 *   	Project  : Ileti merkezi basic api class 
-*	Github	 : github.com/cengizakcan1996
-*	Facebook : fb.com/cengizakcan1996
+*	Github	 : github.com/thevobos
+*	Facebook : fb.com/thevobos
 *   	Gsm      : 05413509697
 *
 
